@@ -9,6 +9,7 @@ const Header = props => {
   );
 };
 
+//This is setting default value for branding, if value passed as empty or If didnt passed branding prop.
 Header.defaultProps = {
   branding: "My App"
 };
